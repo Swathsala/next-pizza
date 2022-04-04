@@ -1,4 +1,4 @@
-import styles from "../styles/PizzaList.module.scss";
+import styles from "../styles/PizzaList.module.css";
 import PizzaCard from "../components/PizzaCard";
 
 const PizzaList = ({ pizzaList }) => {

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "../styles/Navbar.module.scss";
+import styles from "../styles/Navbar.module.css";
 import { useSelector } from "react-redux";
 import Link from "next/link";
 
@@ -20,7 +20,9 @@ const Navbar = () => {
 
       <div className={styles.item}>
         <ul className={styles.list}>
-          <li className={styles.listItem}>Homepage</li>
+          <Link href="/" passHref>
+            <li className={styles.listItem}>Homepage</li>
+          </Link>
           <li className={styles.listItem}>Products</li>
           <li className={styles.listItem}>Menu</li>
           <li className={styles.listItem}>Events</li>

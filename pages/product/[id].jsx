@@ -1,4 +1,4 @@
-import styles from "../../styles/Product.module.scss";
+import styles from "../../styles/Product.module.css";
 import Image from "next/image";
 import { useState } from "react";
 import axios from "axios";

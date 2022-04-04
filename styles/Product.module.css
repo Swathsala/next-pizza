@@ -1,7 +1,6 @@
 .container {
   height: calc(100vh - 100px);
   display: flex;
-  margin-bottom: 60px;
 }
 
 .left {
@@ -14,7 +13,7 @@
 
 .right {
   flex: 1;
-  padding: 10px;
+  padding: 20px;
 }
 
 .imgContainer {
@@ -37,20 +36,20 @@
 }
 
 .size {
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   position: relative;
   cursor: pointer;
 }
 
 .size:nth-child(2) {
-  width: 35px;
-  height: 35px;
+  width: 40px;
+  height: 40px;
 }
 
 .size:last-child {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 .number {
@@ -66,26 +65,25 @@
 
 .ingredients {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .option {
   display: flex;
   align-items: center;
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 14px;
   font-weight: 500;
 }
 
 .checkbox {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
 }
 
 .quantity {
   width: 50px;
   height: 30px;
-  margin-right: 10px;
 }
 
 .button {
